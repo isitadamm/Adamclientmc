@@ -1,4 +1,4 @@
-name: Build Adam Client
+name: Adam Client
 on:
   workflow_dispatch:
   push:
@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Merge batch folders into one project
+        run: |
+          for d in batch*/; do cp -a "$d." .; done
+          ls -la
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -19,5 +23,5 @@ jobs:
         run: gradle build -x test --no-daemon
       - uses: actions/upload-artifact@v4
         with:
-          name: adam-client-jar
+          name: mod-jar
           path: build/libs/adam-client-3.0.jar
