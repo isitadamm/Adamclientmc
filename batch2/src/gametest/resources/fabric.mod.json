@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "adam-gametest",
+  "version": "1.0.0",
+  "name": "Adam Client Runtime Tests",
+  "environment": "client",
+  "mixins": ["adam.gametest.mixins.json"],
+  "entrypoints": {
+    "fabric-client-gametest": [
+      "dev.adam.client.gametest.StaffDetectorGameTest",
+      "dev.adam.client.gametest.StaffDetectorGuiGameTest",
+      "dev.adam.client.gametest.BlockEspGameTest",
+      "dev.adam.client.gametest.BlockEspGuiGameTest",
+      "dev.adam.client.gametest.SoundDetectorGameTest",
+      "dev.adam.client.gametest.SoundDetectorGuiGameTest",
+      "dev.adam.client.gametest.SpectreBuilderGameTest",
+      "dev.adam.client.gametest.SpectreBuilderGuiGameTest",
+      "dev.adam.client.gametest.LightDebugGameTest",
+      "dev.adam.client.gametest.AmethystGameTest",
+      "dev.adam.client.gametest.HotbarGameTest",
+      "dev.adam.client.gametest.NameHiderGameTest",
+      "dev.adam.client.gametest.ProgressBarGameTest",
+      "dev.adam.client.gametest.FlyMultiplayerGameTest",
+      "dev.adam.client.gametest.FlyGameTest",
+      "dev.adam.client.gametest.FullbrightGameTest",
+      "dev.adam.client.gametest.ChunkFinderDepthGameTest",
+      "dev.adam.client.gametest.AdamClientGameTest",
+      "dev.adam.client.gametest.FreecamGameTest",
+      "dev.adam.client.gametest.ModuleKeybindGameTest",
+      "dev.adam.client.gametest.AutoBuilderDataGameTest",
+      "dev.adam.client.gametest.AutoBuilderGuiGameTest",
+      "dev.adam.client.gametest.AutoBuilderEngineGameTest",
+      "dev.adam.client.gametest.ChunkFinderGameTest",
+      "dev.adam.client.gametest.ChunkFinderGuiGameTest"
+    ]
+  },
+  "depends": {
+    "adam": "*",
+    "fabric-client-gametest-api-v1": "*"
+  }
+}

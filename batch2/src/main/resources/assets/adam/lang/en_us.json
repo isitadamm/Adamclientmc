@@ -1,0 +1,20 @@
+{
+  "key.category.adam.client": "Adam Client",
+  "key.adam.open_gui": "Open Adam GUI",
+  "key.adam.toggle_freecam": "Toggle Freecam",
+  "key.adam.open_autobuilder": "Open AutoBuilder",
+  "key.adam.toggle_chunk_finder": "Toggle Base Finder",
+  "key.adam.toggle_fullbright": "Toggle Fullbright",
+  "key.adam.toggle_fly": "Toggle Fly",
+  "key.adam.toggle_progress_bar": "Toggle Progress Bar",
+  "key.adam.toggle_name_hider": "Toggle Name Hider",
+  "key.adam.toggle_hotbar": "Toggle Hotbar",
+  "key.adam.toggle_light_debug": "Toggle Light Debug",
+  "key.adam.toggle_amethyst": "Toggle Amethyst Scanner",
+  "key.adam.toggle_sound_detector": "Toggle Sound Detector",
+  "key.adam.toggle_block_esp": "Toggle BlockESP",
+  "key.adam.toggle_staff_detector": "Toggle Staff Detector",
+  "key.adam.acknowledge_sound": "Acknowledge sound alert",
+  "key.adam.mute_sound": "Mute sound alerts for 60 seconds",
+  "key.adam.sound_history": "Open sound activity history"
+}
